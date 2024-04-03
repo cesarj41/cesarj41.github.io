@@ -3,8 +3,8 @@ import { PortfolioLandingPage } from "./components/portfolio-landing-page";
 
 export function App() {
   return (
-      <Routes>
-        <Route index element={<PortfolioLandingPage />} />
-      </Routes>
-  )
+    <Routes>
+      <Route index element={<PortfolioLandingPage />} />
+    </Routes>
+  );
 }
