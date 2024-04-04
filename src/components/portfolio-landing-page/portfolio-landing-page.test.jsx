@@ -1,5 +1,5 @@
-import { PortfolioLandingPage } from "./portfolio-landing-page";
 import { render } from "@testing-library/preact";
+import { PortfolioLandingPage } from "./portfolio-landing-page";
 
 describe(PortfolioLandingPage.name, () => {
   it("Should render PortfolioLandingPage", () => {
