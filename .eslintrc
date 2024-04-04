@@ -1,12 +1,14 @@
 {
   "env": {
-    "browser": true
+    "browser": true,
+    "vitest-globals/env": true
   },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:vitest-globals/recommended",
     "prettier"
   ],
   "plugins": ["prettier"],
