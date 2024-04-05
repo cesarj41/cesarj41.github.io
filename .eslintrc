@@ -9,6 +9,7 @@
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:vitest-globals/recommended",
+    "plugin:tailwindcss/recommended",
     "prettier"
   ],
   "ignorePatterns": ["dist", ".eslintrc", "node_modules"],
