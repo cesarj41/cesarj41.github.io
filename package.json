@@ -9,15 +9,17 @@
     "lint": "eslint . --ext .js,.jsx",
     "lint:fix": "eslint --fix --ext .js,.jsx .",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "prepare": "husky"
   },
   "dependencies": {
     "preact": "^10.19.6",
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
-    "@happy-dom/global-registrator": "^14.4.0",
     "@preact/preset-vite": "^2.8.2",
+    "@prefresh/vite": "^2.4.5",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/preact": "^3.2.3",
     "@testing-library/user-event": "^14.5.2",

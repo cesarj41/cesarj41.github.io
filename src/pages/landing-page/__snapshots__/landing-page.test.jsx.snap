@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`PortfolioLandingPage > Should render PortfolioLandingPage 1`] = `
+exports[`LandingPage > Should render PortfolioLandingPage 1`] = `
 <div>
   <div>
     landing page for the portfolio

@@ -13,12 +13,12 @@ dependencies:
     version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
-  '@happy-dom/global-registrator':
-    specifier: ^14.4.0
-    version: 14.5.0
   '@preact/preset-vite':
     specifier: ^2.8.2
     version: 2.8.2(@babel/core@7.24.4)(preact@10.20.1)(vite@5.2.8)
+  '@prefresh/vite':
+    specifier: ^2.4.5
+    version: 2.4.5(preact@10.20.1)(vite@5.2.8)
   '@testing-library/jest-dom':
     specifier: ^6.4.2
     version: 6.4.2(vitest@1.4.0)
@@ -60,7 +60,7 @@ devDependencies:
     version: 1.5.0
   happy-dom:
     specifier: ^14.4.0
-    version: 14.5.0
+    version: 14.5.1
   husky:
     specifier: ^9.0.11
     version: 9.0.11
@@ -78,7 +78,7 @@ devDependencies:
     version: 5.2.8
   vitest:
     specifier: ^1.4.0
-    version: 1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.0)
+    version: 1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.1)
 
 packages:
 
@@ -597,13 +597,6 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@happy-dom/global-registrator@14.5.0:
-    resolution: {integrity: sha512-+40jyfCCNoCjfCNc8x5QjA0PQ/uq7XUaPelpek6lpl0r87jygAeU7INl1oqYm2uwlSrIsGDt4iRE5DNQDDq1zg==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      happy-dom: 14.5.0
-    dev: true
-
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
@@ -967,7 +960,7 @@ packages:
       dom-accessibility-api: 0.6.3
       lodash: 4.17.21
       redent: 3.0.0
-      vitest: 1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.0)
+      vitest: 1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.1)
     dev: true
 
   /@testing-library/preact@3.2.3(preact@10.20.1):
@@ -1024,7 +1017,7 @@ packages:
       strip-literal: 2.1.0
       test-exclude: 6.0.0
       v8-to-istanbul: 9.2.0
-      vitest: 1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.0)
+      vitest: 1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1071,7 +1064,7 @@ packages:
       pathe: 1.1.2
       picocolors: 1.0.0
       sirv: 2.0.4
-      vitest: 1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.0)
+      vitest: 1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.1)
     dev: true
 
   /@vitest/utils@1.4.0:
@@ -1351,7 +1344,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001605
-      electron-to-chromium: 1.4.727
+      electron-to-chromium: 1.4.728
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -1680,8 +1673,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.727:
-    resolution: {integrity: sha512-brpv4KTeC4g0Fx2FeIKytLd4UGn1zBQq5Lauy7zEWT9oqkaj5mgsxblEZIAOf1HHLlXxzr6adGViiBy5Z39/CA==}
+  /electron-to-chromium@1.4.728:
+    resolution: {integrity: sha512-Ud1v7hJJYIqehlUJGqR6PF1Ek8l80zWwxA6nGxigBsGJ9f9M2fciHyrIiNMerSHSH3p+0/Ia7jIlnDkt41h5cw==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -2305,8 +2298,8 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@14.5.0:
-    resolution: {integrity: sha512-KvOtCq7eamc7cjihM0F1wj6FptuXzooc3Typa7Vgu6ns2uKGXC4BIFlK80SdH2w8zcW0gtxpBVI/sUqbYtljDA==}
+  /happy-dom@14.5.1:
+    resolution: {integrity: sha512-nCmCszZnhHHvcY3gDqLNZrU71QzCT1sI2OUQy2YSn3omMYWe+QHSTO1PfS/1r6fds6zt6GI7L1tRIxo7RgC8lg==}
     engines: {node: '>=16.0.0'}
     dependencies:
       entities: 4.5.0
@@ -3992,7 +3985,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.0):
+  /vitest@1.4.0(@vitest/ui@1.4.0)(happy-dom@14.5.1):
     resolution: {integrity: sha512-gujzn0g7fmwf83/WzrDTnncZt2UiXP41mHuFYFrdwaLRVQ6JYQEiME2IfEjU3vcFL3VKa75XhI3lFgn+hfVsQw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4027,7 +4020,7 @@ packages:
       chai: 4.4.1
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 14.5.0
+      happy-dom: 14.5.1
       local-pkg: 0.5.0
       magic-string: 0.30.9
       pathe: 1.1.2
