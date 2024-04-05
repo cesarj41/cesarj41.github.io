@@ -1,7 +1,6 @@
 import { Outlet, Route, Routes } from "react-router-dom";
 import { ChallengeLayout } from "./components/challenge-layout";
-import { LandingPage } from "./pages/landing-page/landing-page";
-import { QRCodeChallengePage } from "./pages/qrcode-challenge-page/qrcode-challenge-page";
+import { LandingPage, QRCodeChallengePage } from "./pages";
 
 export function App() {
   return (
