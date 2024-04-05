@@ -16,16 +16,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: pnpm/setup-pnpm@v8
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
         with:
-          node-version: "20"
+          version: 8
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Run ESLint
-        run: pnpm lint
+        run: pnpm run lint
 
   test:
     name: Unit and Integration Tests
@@ -34,16 +34,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: pnpm/setup-pnpm@v8
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
         with:
-          node-version: "20"
+          version: 8
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Run tests
-        run: pnpm test:ci
+        run: pnpm run test:ci
 
   build:
     name: Build
@@ -53,13 +53,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: pnpm/setup-pnpm@v8
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
         with:
-          node-version: "20"
+          version: 8
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Build app
-        run: pnpm build
+        run: pnpm run build
