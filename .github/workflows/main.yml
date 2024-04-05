@@ -17,15 +17,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: pnpm/setup-pnpm@v8
         with:
           node-version: "20"
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: Run ESLint
-        run: npm run lint
+        run: pnpm lint
 
   test:
     name: Unit and Integration Tests
@@ -35,15 +35,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: pnpm/setup-pnpm@v8
         with:
           node-version: "20"
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: Run tests
-        run: npm test:ci
+        run: pnpm test:ci
 
   build:
     name: Build
@@ -54,12 +54,12 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: pnpm/setup-pnpm@v8
         with:
           node-version: "20"
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build app
-        run: npm run build
+        run: pnpm build
