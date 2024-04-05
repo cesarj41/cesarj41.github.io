@@ -3,7 +3,7 @@
 exports[`LandingPage > Should render PortfolioLandingPage 1`] = `
 <div>
   <div>
-    landing page for the portfolio
+    landing page for the portfolio!
   </div>
 </div>
 `;
