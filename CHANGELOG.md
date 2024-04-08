@@ -1,3 +1,10 @@
+## [1.3.11](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.10...v1.3.11) (2024-04-08)
+
+
+### Bug Fixes
+
+* rmeoved unused space ([b938352](https://github.com/cesarj41/portfolio_monorepo/commit/b938352e7552d080849791ec88a866a907807ffd))
+
 ## [1.3.10](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.9...v1.3.10) (2024-04-08)
 
 
