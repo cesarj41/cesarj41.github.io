@@ -34,7 +34,7 @@ jobs:
           NPM_TOKEN: ""
         run: HUSKY=0 pnpm exec semantic-release
 
-      - name: Install dependencies
+      - name: Build app
         run: pnpm build
 
       - name: Deploy to GitHub Pages
