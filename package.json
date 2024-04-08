@@ -2,7 +2,7 @@
   "name": "portfolio-ui",
   "private": "true",
   "version": "1.0.0",
-  "homepage": "https://cesarj41.github.io/portfolio_monorepo",
+  "homepage": "https://cesarj41.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
