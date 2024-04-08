@@ -1,3 +1,10 @@
+## [1.3.12](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.11...v1.3.12) (2024-04-08)
+
+
+### Bug Fixes
+
+* put back react router ([de65e6a](https://github.com/cesarj41/portfolio_monorepo/commit/de65e6a2f0cf621830d5951752a653c312adf819))
+
 ## [1.3.11](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.10...v1.3.11) (2024-04-08)
 
 
