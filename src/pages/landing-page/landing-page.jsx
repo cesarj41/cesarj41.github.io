@@ -1,3 +1,3 @@
 export function LandingPage() {
-  return <div>landing page for the portfolio!</div>;
+  return <div>landing page for the portfolio</div>;
 }
