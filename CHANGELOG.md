@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/cesarj41/portfolio_monorepo/compare/v1.2.0...v1.2.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* corrected text typo ([0ed825b](https://github.com/cesarj41/portfolio_monorepo/commit/0ed825b1b65282ca47984f3f3d7b2cd1752cfb45))
+
 # [1.2.0](https://github.com/cesarj41/portfolio_monorepo/compare/v1.1.2...v1.2.0) (2024-04-08)
 
 
