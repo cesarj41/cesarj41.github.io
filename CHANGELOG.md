@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/cesarj41/portfolio_monorepo/compare/v1.1.2...v1.2.0) (2024-04-08)
+
+
+### Features
+
+* configure different deployment method ([5620de8](https://github.com/cesarj41/portfolio_monorepo/commit/5620de8083b5078b9bd78111b513696e685ed7d1))
+
 ## [1.1.2](https://github.com/cesarj41/portfolio_monorepo/compare/v1.1.1...v1.1.2) (2024-04-08)
 
 
