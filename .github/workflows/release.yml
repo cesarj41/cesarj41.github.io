@@ -37,8 +37,5 @@ jobs:
           NPM_TOKEN: ""
         run: HUSKY=0 pnpm exec semantic-release
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: ./dist
+      - name: Deploy app
+        run: pnpm run deploy
