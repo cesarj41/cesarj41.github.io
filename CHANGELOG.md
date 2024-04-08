@@ -1,3 +1,10 @@
+## [1.3.9](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.8...v1.3.9) (2024-04-08)
+
+
+### Bug Fixes
+
+* remove unneded letter ([f6cf828](https://github.com/cesarj41/portfolio_monorepo/commit/f6cf8286a3ae53b439a5a0bda706aea1a2bb1b81))
+
 ## [1.3.8](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.7...v1.3.8) (2024-04-08)
 
 
