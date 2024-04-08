@@ -5,7 +5,7 @@ import { LandingPage, QRCodeChallengePage } from "./pages";
 export function App() {
   return (
     <Routes>
-      <Route index element={<LandingPage />} />
+      <Route path="/" index element={<LandingPage />} />
       <Route
         path="challenges"
         element={
