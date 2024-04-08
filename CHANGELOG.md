@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.3...v1.3.4) (2024-04-08)
+
+
+### Bug Fixes
+
+* vite config deploy to gh pages ([c70b9e3](https://github.com/cesarj41/portfolio_monorepo/commit/c70b9e3931d173a6363c66b5c875329e870241a0))
+
 ## [1.3.3](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.2...v1.3.3) (2024-04-08)
 
 
