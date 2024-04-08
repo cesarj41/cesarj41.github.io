@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.6...v1.3.7) (2024-04-08)
+
+
+### Bug Fixes
+
+* rename base url ([7d383f0](https://github.com/cesarj41/portfolio_monorepo/commit/7d383f05ed31d1d0e4e1f7bd94e02f64593703ee))
+
 ## [1.3.6](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.5...v1.3.6) (2024-04-08)
 
 
