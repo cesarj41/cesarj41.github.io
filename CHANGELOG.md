@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.0...v1.3.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* removed wrong action script ([d9bcef3](https://github.com/cesarj41/portfolio_monorepo/commit/d9bcef30c153afa12ccf4c016405b5eff0e61b56))
+
 # [1.3.0](https://github.com/cesarj41/portfolio_monorepo/compare/v1.2.1...v1.3.0) (2024-04-08)
 
 
