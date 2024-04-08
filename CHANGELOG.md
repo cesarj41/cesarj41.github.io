@@ -1,3 +1,10 @@
+## [1.3.10](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.9...v1.3.10) (2024-04-08)
+
+
+### Bug Fixes
+
+* added missing path value ([3402c98](https://github.com/cesarj41/portfolio_monorepo/commit/3402c98799d70317e9818ab74c9fe8a4f9ef1b54))
+
 ## [1.3.9](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.8...v1.3.9) (2024-04-08)
 
 
