@@ -34,10 +34,12 @@ jobs:
           NPM_TOKEN: ""
         run: HUSKY=0 pnpm exec semantic-release
 
+      - name: Install dependencies
+        run: pnpm build
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist
-          BUILD_SCRIPT: pnpm run build
