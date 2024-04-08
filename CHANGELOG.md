@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.1...v1.3.2) (2024-04-08)
+
+
+### Bug Fixes
+
+* correct step name duplication ([bdce285](https://github.com/cesarj41/portfolio_monorepo/commit/bdce285e907c6a17710ce2456ac557832a5d5516))
+
 ## [1.3.1](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.0...v1.3.1) (2024-04-08)
 
 
