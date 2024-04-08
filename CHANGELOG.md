@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.5...v1.3.6) (2024-04-08)
+
+
+### Bug Fixes
+
+* change base url path ([50cc8d7](https://github.com/cesarj41/portfolio_monorepo/commit/50cc8d736a8a9b62f7ea2d8deb9fb594092ee8a7))
+
 ## [1.3.5](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.4...v1.3.5) (2024-04-08)
 
 
