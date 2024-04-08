@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/cesarj41/portfolio_monorepo/compare/v1.2.1...v1.3.0) (2024-04-08)
+
+
+### Features
+
+* change deploy proccess ([81efed9](https://github.com/cesarj41/portfolio_monorepo/commit/81efed9f8a4b44af7c8d73612b0e10e90dd4fea9))
+
 ## [1.2.1](https://github.com/cesarj41/portfolio_monorepo/compare/v1.2.0...v1.2.1) (2024-04-08)
 
 
