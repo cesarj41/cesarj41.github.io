@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/cesarj41/portfolio_monorepo/compare/v1.1.0...v1.1.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* added missing step for deploying in releasing workflow ([f4f6565](https://github.com/cesarj41/portfolio_monorepo/commit/f4f656554c6edbabd5267a683330f2be9273053e))
+
 # [1.1.0](https://github.com/cesarj41/portfolio_monorepo/compare/v1.0.1...v1.1.0) (2024-04-08)
 
 
