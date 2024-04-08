@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.4...v1.3.5) (2024-04-08)
+
+
+### Bug Fixes
+
+* corrected wrong repo name ([e9ee60b](https://github.com/cesarj41/portfolio_monorepo/commit/e9ee60bea68c73222b873fdeb0997c62ee4c2849))
+
 ## [1.3.4](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.3...v1.3.4) (2024-04-08)
 
 
