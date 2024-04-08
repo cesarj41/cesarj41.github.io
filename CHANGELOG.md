@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.2...v1.3.3) (2024-04-08)
+
+
+### Bug Fixes
+
+* deploy issue ([a0b7079](https://github.com/cesarj41/portfolio_monorepo/commit/a0b70790d0799d93509047fa199acd9e646d7da1))
+
 ## [1.3.2](https://github.com/cesarj41/portfolio_monorepo/compare/v1.3.1...v1.3.2) (2024-04-08)
 
 
