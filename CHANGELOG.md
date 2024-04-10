@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/cesarj41/cesarj41.github.io/compare/v1.4.0...v1.4.1) (2024-04-10)
+
+
+### Bug Fixes
+
+* added 404 handling page ([a9e51b8](https://github.com/cesarj41/cesarj41.github.io/commit/a9e51b8ad9f95db327a3b2017e40e6ab1b3443b7))
+
 # [1.4.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.3.12...v1.4.0) (2024-04-09)
 
 
