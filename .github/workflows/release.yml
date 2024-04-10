@@ -38,8 +38,9 @@ jobs:
         run: pnpm build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          token: ${{ secrets.GH_TOKEN }}
+          folder: dist
+          force: false
+          clean-exclude: pr-preview/
