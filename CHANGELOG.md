@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.5.0...v1.6.0) (2024-04-10)
+
+
+### Features
+
+* created preview env ([1d514e6](https://github.com/cesarj41/cesarj41.github.io/commit/1d514e6f3daf88cad892fd5a535252d6f1a0ebee))
+
 # [1.5.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.4.1...v1.5.0) (2024-04-10)
 
 
