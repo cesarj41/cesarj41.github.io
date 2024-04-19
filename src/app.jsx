@@ -4,18 +4,20 @@ import { LandingPage, QRCodeChallengePage } from "./pages";
 
 export function App() {
   return (
-    <Routes>
-      <Route path="/" index element={<LandingPage />} />
-      <Route
-        path="challenges"
-        element={
-          <ChallengeLayout>
-            <Outlet />
-          </ChallengeLayout>
-        }
-      >
-        <Route path="qrcode" element={<QRCodeChallengePage />} />
-      </Route>
-    </Routes>
+    <div className="min-w-[320px]">
+      <Routes>
+        <Route path="/" index element={<LandingPage />} />
+        <Route
+          path="challenges"
+          element={
+            <ChallengeLayout>
+              <Outlet />
+            </ChallengeLayout>
+          }
+        >
+          <Route path="qrcode" element={<QRCodeChallengePage />} />
+        </Route>
+      </Routes>
+    </div>
   );
 }
