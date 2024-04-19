@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.6.0...v1.7.0) (2024-04-19)
+
+
+### Features
+
+* completed qrcode challenge ([e373f19](https://github.com/cesarj41/cesarj41.github.io/commit/e373f19612bc8a2c4cd48cd4d0e5ddb3392d9d4d))
+
 # [1.6.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.5.0...v1.6.0) (2024-04-10)
 
 
