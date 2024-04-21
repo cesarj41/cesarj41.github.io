@@ -1,3 +1,16 @@
+# [1.8.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.7.0...v1.8.0) (2024-04-21)
+
+
+### Bug Fixes
+
+* added min width layout screen ([988b0d4](https://github.com/cesarj41/cesarj41.github.io/commit/988b0d46f815d52669bdd7b06f0f23e760619c45))
+* not centering qrcode challenge page ([fa85f04](https://github.com/cesarj41/cesarj41.github.io/commit/fa85f046e525b551a54285ca62e242abf323827e))
+
+
+### Features
+
+* added social proof challenge ([9627fe3](https://github.com/cesarj41/cesarj41.github.io/commit/9627fe38ccdeaf425c9944ee0b7b323fdc8f6808))
+
 # [1.7.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.6.0...v1.7.0) (2024-04-19)
 
 
