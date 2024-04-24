@@ -22,8 +22,12 @@
     "pnpm": ">=8.0.0"
   },
   "dependencies": {
+    "@mui/base": "5.0.0-beta.40",
+    "@mui/utils": "^5.15.14",
+    "clsx": "^2.1.0",
     "preact": "^10.19.6",
     "qrcode.react": "^3.1.0",
+    "react-dragula": "^1.1.17",
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
