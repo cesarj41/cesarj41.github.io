@@ -45,7 +45,7 @@ export const Autocomplete = forwardRef((props, ref) => {
         {...getRootProps(other)}
         ref={rootRef}
         className={clsx(
-          "flex w-[392px] gap-[5px] overflow-hidden rounded-md border border-solid border-gray-200 bg-[#F7F7FA] pr-6 shadow-[0_2px_4px_rgb(0_0_0_/_0.05)] focus-visible:outline-0 dark:border-gray-700 dark:bg-gray-800 dark:shadow-[0_2px_4px_rgb(0_0_0_/_0.5)]",
+          "flex w-full max-w-[392px] gap-[5px] overflow-hidden rounded-md border border-solid border-gray-200 bg-[#F7F7FA] pr-6 shadow-[0_2px_4px_rgb(0_0_0_/_0.05)] focus-visible:outline-0 dark:border-gray-700 dark:bg-gray-800 dark:shadow-[0_2px_4px_rgb(0_0_0_/_0.5)]",
           !focused &&
             "shadow-[0_2px_2px_transparent] shadow-gray-50 dark:shadow-gray-900",
           focused && " shadow-[0_0_0_3px_transparent]"

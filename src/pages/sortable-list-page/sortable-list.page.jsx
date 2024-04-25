@@ -18,34 +18,36 @@ export function SortableListPage() {
     }
   }, []);
   return (
-    <div className="grid h-full place-content-center overflow-auto bg-slate-100 pb-14">
+    <div className="flex h-screen flex-col items-center justify-center bg-slate-100 px-8">
       <p className="mb-8 text-center text-[40px] font-semibold text-[#172554]">
         Select your top 5 tech skills
       </p>
-      <div className="flex w-[718px] flex-wrap gap-[64px] rounded-2xl bg-white p-[64px]">
-        <div ref={draggable} className="grid gap-[18px]">
-          {options.map((opt) => {
-            const placeholder = `${opt}. Add Skill`;
-            return (
-              <OptionPicker
-                key={placeholder}
-                skills={skillList}
-                value={skills[opt]}
-                disabled={opt !== 1 && !skills[opt - 1]}
-                placeholder={placeholder}
-                onChange={(v) => setSkills((curr) => ({ ...curr, [opt]: v }))}
-                onRemove={() =>
-                  setSkills((curr) => {
-                    const skills_copy = { ...curr };
-                    delete skills_copy[opt];
-                    return skills_copy;
-                  })
-                }
-              />
-            );
-          })}
+      <div className="flex w-full max-w-[718px] flex-wrap gap-[64px] rounded-2xl bg-white p-[64px]">
+        <div className="flex flex-1">
+          <div ref={draggable} className="grid w-full gap-[18px]">
+            {options.map((opt) => {
+              const placeholder = `${opt}. Add Skill`;
+              return (
+                <OptionPicker
+                  key={placeholder}
+                  skills={skillList}
+                  value={skills[opt]}
+                  disabled={opt !== 1 && !skills[opt - 1]}
+                  placeholder={placeholder}
+                  onChange={(v) => setSkills((curr) => ({ ...curr, [opt]: v }))}
+                  onRemove={() =>
+                    setSkills((curr) => {
+                      const skills_copy = { ...curr };
+                      delete skills_copy[opt];
+                      return skills_copy;
+                    })
+                  }
+                />
+              );
+            })}
+          </div>
         </div>
-        <div>
+        <div className="mx-auto">
           <p className="font-semibold text-[#0D2167]">Suggested Skills</p>
           <div className="mt-4 grid gap-2">
             {suggestedList.map((s) => (
@@ -79,7 +81,7 @@ function OptionPicker({
 }) {
   if (value) {
     return (
-      <div className="flex w-[392px] items-center justify-between rounded-md bg-[#0D2167] px-6 py-4 text-white">
+      <div className="flex w-full max-w-[392px] cursor-grab items-center justify-between rounded-md bg-[#0D2167] px-6 py-4 text-white">
         <div>
           <p>{value.label}</p>
         </div>
@@ -97,7 +99,7 @@ function OptionPicker({
 
   if (disabled) {
     return (
-      <div className="flex w-[392px] cursor-not-allowed items-center justify-between rounded-md border bg-[#E5E7EB] px-6 py-4 text-[#9CA3AF]">
+      <div className="flex w-full max-w-[392px] cursor-not-allowed items-center justify-between rounded-md border bg-[#E5E7EB] px-6 py-4 text-[#9CA3AF]">
         <p>{placeholder}</p>
       </div>
     );

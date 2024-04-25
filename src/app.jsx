@@ -6,6 +6,7 @@ import {
   SocialProofPage,
   SortableListPage
 } from "./pages";
+import { MultiStepFormPage } from "./pages/multi-step-form-page/multi-step-form.page";
 
 export function App() {
   return (
@@ -23,6 +24,7 @@ export function App() {
           <Route path="qrcode" element={<QRCodeChallengePage />} />
           <Route path="social-proof" element={<SocialProofPage />} />
           <Route path="sortable-list" element={<SortableListPage />} />
+          <Route path="multi-form" element={<MultiStepFormPage />} />
         </Route>
       </Routes>
     </div>

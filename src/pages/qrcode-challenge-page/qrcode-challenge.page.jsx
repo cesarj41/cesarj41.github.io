@@ -2,7 +2,7 @@ import { QRCodeSVG } from "qrcode.react";
 
 export function QRCodeChallengePage() {
   return (
-    <div className="grid h-full place-content-center bg-slate-100">
+    <div className="grid h-screen place-content-center bg-slate-100">
       <div className="grid max-w-[320px] gap-6 rounded-[28px] border border-[#979797] bg-white p-4">
         <div className="relative grid size-[288px] cursor-pointer place-content-center overflow-hidden rounded-2xl bg-[#2C7DFA]">
           <div className="z-50">
