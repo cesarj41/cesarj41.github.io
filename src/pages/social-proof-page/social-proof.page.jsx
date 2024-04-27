@@ -4,7 +4,7 @@ import IreneAvatar from "../../assets/img/image-irene.jpg";
 
 export function SocialProofPage() {
   return (
-    <div className="h-full bg-no-repeat px-10 md:bg-[url('../../assets/svg/bg-pattern-top-desktop.svg')]">
+    <div className="h-screen bg-no-repeat px-10 md:bg-[url('../../assets/svg/bg-pattern-top-desktop.svg')]">
       <div className="m-auto w-full max-w-[1200px] bg-[url('../../assets/svg/bg-pattern-top-mobile.svg')] bg-no-repeat pt-[80px] md:bg-[white]">
         <section>
           <div className="mb-12 grid w-full gap-9 md:grid-cols-6">

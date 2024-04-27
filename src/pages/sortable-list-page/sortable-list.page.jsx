@@ -13,7 +13,6 @@ export function SortableListPage() {
 
   useEffect(() => {
     if (draggable.current) {
-      console.log("yes");
       dragula([draggable.current]);
     }
   }, []);
