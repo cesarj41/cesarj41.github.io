@@ -1,22 +1,24 @@
-import { Outlet, Route, Routes } from "react-router-dom";
-import { ChallengeLayout } from "./components/challenge-layout";
-import { LandingPage, QRCodeChallengePage, SocialProofPage } from "./pages";
+import { Route, Routes } from "react-router-dom";
+import {
+  LandingPage,
+  MultiStepFormPage,
+  QRCodeChallengePage,
+  RatingPage,
+  SocialProofPage,
+  SortableListPage
+} from "./pages";
 
 export function App() {
   return (
-    <div className="min-w-[320px]">
+    <div className="min-w-[275px]">
       <Routes>
         <Route path="/" index element={<LandingPage />} />
-        <Route
-          path="challenges"
-          element={
-            <ChallengeLayout>
-              <Outlet />
-            </ChallengeLayout>
-          }
-        >
+        <Route path="challenges">
           <Route path="qrcode" element={<QRCodeChallengePage />} />
           <Route path="social-proof" element={<SocialProofPage />} />
+          <Route path="sortable-list" element={<SortableListPage />} />
+          <Route path="multi-form" element={<MultiStepFormPage />} />
+          <Route path="rating" element={<RatingPage />} />
         </Route>
       </Routes>
     </div>
