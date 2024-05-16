@@ -1,3 +1,19 @@
+# [1.9.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.8.0...v1.9.0) (2024-05-16)
+
+
+### Bug Fixes
+
+* added missing meta description ([7fa5bbe](https://github.com/cesarj41/cesarj41.github.io/commit/7fa5bbe2c50486097f9338440cb66d154adafe82))
+* updated snapshot ([1bf011d](https://github.com/cesarj41/cesarj41.github.io/commit/1bf011da73c6b2b6bda95dde94bbfca1b6846969))
+
+
+### Features
+
+* added landing page ([2cbb9b5](https://github.com/cesarj41/cesarj41.github.io/commit/2cbb9b5b2abb22fbfb8cfa8602319f09c66f97ed))
+* added multi step form challenge ([02f388b](https://github.com/cesarj41/cesarj41.github.io/commit/02f388b494983dd787d9bade376c79f94add8982))
+* added rating component ([16fc34e](https://github.com/cesarj41/cesarj41.github.io/commit/16fc34eff37d106a644e87593506107682db46b0))
+* finished sortable list challenge ([54b4c0d](https://github.com/cesarj41/cesarj41.github.io/commit/54b4c0db9d31af35365803045aae602cf495fc88))
+
 # [1.8.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.7.0...v1.8.0) (2024-04-21)
 
 
