@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.9.0...v1.10.0) (2025-01-17)
+
+
+### Features
+
+* added file ([e9e1ce0](https://github.com/cesarj41/cesarj41.github.io/commit/e9e1ce0059e694036046200a5cb8c66f01637bb8))
+
 # [1.9.0](https://github.com/cesarj41/cesarj41.github.io/compare/v1.8.0...v1.9.0) (2024-05-16)
 
 
